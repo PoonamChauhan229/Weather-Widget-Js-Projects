@@ -1,0 +1,106 @@
+#desc{
+    font-size: 18px;
+    /* font-weight: bold; */
+    text-transform: capitalize;
+}
+.fa-location-dot{
+    font-size: 22px;
+}
+.flex1{
+    border:1px solid rgb(222, 215, 215);
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.fa-droplet,.fa-temperature-high{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-right: 7px;
+    color: lightskyblue;
+}
+.card-header{
+    color: rgb(109, 194, 247);
+    font-weight: bold;
+    font-size: 18px;
+}
+.flex{
+    /* background-color:yellow; */
+}
+.lastcell{
+    /* padding:3px;
+    margin:3px; */
+    background-color: rgba(0,0,0,.03);
+    display: flex;
+    /* border:1px solid red; */
+    justify-content: start;
+    
+}
+.cardtop{
+    /* width:20%; */
+    height: 10%;
+    /* margin-top: 15%; */
+    margin-left: 5%;
+}
+.container2,.container{
+    display: flex;
+   
+}
+.cardbottom{
+margin-top: 5%;
+margin-left: 10%;
+padding: 0;
+
+}
+
+.fa-share{
+    font-size:100px;
+    margin-left: 250px;
+    
+}
+body{
+    background-color: rgb(77, 185, 221);
+}
+.img-thumbnail{
+    
+    /* border:none !important; */
+    border: none;
+}
+.img{
+    width:60%;
+    height: 40%;
+    margin-left: 70%;
+    margin-top: 50%;
+    padding: 20px;
+    /* border: 1px solid red; */
+}
+.image2{
+    border: none;
+    padding: 0.25rem;
+    background-color: #fff;
+    height:150px;
+    width:150px;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+}
+.flex1{
+    display: flex;
+}
+.card2{    
+   flex: 1 1 auto;
+}
+.sky{
+    font-size: 125px;
+}
+#celsius,#temp{
+    font-size: 45px;
+    font-weight: bold;
+}
+p{
+    margin-bottom: 0;
+    padding: 0;
+}
+.container2{
+    padding-left:12%;
+}

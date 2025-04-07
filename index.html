@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/solid.min.css" integrity="sha512-qzgHTQ60z8RJitD5a28/c47in6WlHGuyRvMusdnuWWBB6fZ0DWG/KyfchGSBlLVeqAz+1LzNq+gGZkCSHnSd3g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<style>
+    body{
+    background-color: rgb(77, 185, 221);
+    font-family: 'Poppins';
+}
+</style>
+<body>
+    <!-- input box -->
+    
+    <!-- <div class="card cardtop" style="width: 18rem;margin:0; "> -->
+        <div class="container2 container">
+           
+            <div class="cardtop" style="width: 18rem;" >
+                <!-- <i class="fa-solid fa-share"></i> -->
+                <img class='img'src="./images/arrow.png">
+                <div class="card">
+                    <div class="card-header" style="text-align:center">
+                        Weather App
+                    </div>
+            
+                    <div class="card-body cardtop">
+                    <input type="text" id='city'class="form-control" placeholder="Enter City"><br/>
+                    
+                    <div class="text-center">
+                            <button type="button" class="text-center btn btn-primary" onclick="getWeatherData()">Submit</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- display fetched Weather data -->
+            <!-- <div class="card" style="width: 20rem ;margin-left: 15%;margin-top: 5%;;"> -->
+            <div class="card cardtop cardbottom" >
+                <div class="card-header" style="text-align:center">
+                    Weather Details
+                </div>
+                <div class="text-center">            
+                <img class="image2 img-thumbnail" id="skyIcon" >
+                </div>
+                <div class="card2 text-center">
+                    
+                    <span class="card-text"id="temp"></span><span id="celsius">°C</span>
+                    <p class="card-text" id="desc"></p>
+                    <p><i class="fa-solid fa-location-dot"></i><b class="card-text" id="loc"></b></i></p>
+                    <!-- <p class="card-text "id="sky"></p> -->
+                    
+                    <div class="lastcell" style="text-align:center">
+                        <div class="flex1">                    
+                            <div><i class="fa-solid fa-temperature-high"></i></div>
+                                <div class="flex">
+                                    <div id="feelsLike"></div>
+                                    <div>Feels Like</div>
+                                </div>
+                        </div>
+
+                        <div class="flex1">                    
+                            <div><i class="fa-solid fa-droplet"></i></div>
+                                <div class="flex">
+                                    <div id="humidity"></div>
+                                    <div>Humidity</div>
+                                </div>
+                        </div>                
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
+
