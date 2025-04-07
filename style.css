@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(77, 185, 221);
+    font-family: 'Poppins';
+}
 #desc{
     font-size: 18px;
     /* font-weight: bold; */
