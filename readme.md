@@ -41,6 +41,8 @@ To-Do-List-Js-Projects/
 - <title> sets the title of the webpage that appears in the browser tab.
 - External Stylesheets: Includes FontAwesome for icons, Bootstrap for layout and styling, and a custom style.css for further styling.
 
+---
+
 ### `<body> – Main Content Wrapper`
 
 ```
@@ -50,6 +52,8 @@ To-Do-List-Js-Projects/
 ```
 - <body>: Contains the visible elements of the page.
 - .container2 container: This wrapper class organizes the layout and ensures responsiveness.
+
+---
 
 ### `.cardtop – Weather Input Form`
 ```
@@ -71,6 +75,8 @@ To-Do-List-Js-Projects/
 - <input>: A text input field for entering the city name to fetch weather data.
 - <button>: A button that triggers the getWeatherData() function in JavaScript when clicked to fetch weather data.
 
+---
+
 ### `.cardtop cardbottom – Display Weather Data`
 
 ```
@@ -89,6 +95,8 @@ To-Do-List-Js-Projects/
 ```    
 - <div class="card">: Another Bootstrap card to display the fetched weather details.
 - Weather Data Display: Elements like temperature (#temp), description (#desc), location (#loc), and an image (#skyIcon) will be dynamically updated with the weather data.
+
+---
 
 ### `.lastcell – Additional Weather Information`
 
